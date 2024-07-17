@@ -9,8 +9,5 @@ function FindRoots(a,b,c) {
     let x2 = ((-1)*b - Math.sqrt(Discriminant(a, b, c)))/(2*a);
     console.log(`Уравнение ${a}x2 - ${b}x + ${c} = 0 имеет два корня: x1 = ${x1} и x2 = ${x2}`);
 }
-const a = 5;
-const b = 7;
-const c = 2;
-FindRoots(a, b, c)
+
 module.exports = { FindRoots };
