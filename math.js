@@ -13,3 +13,4 @@ const a = 5;
 const b = 7;
 const c = 2;
 FindRoots(a, b, c)
+module.exports = { FindRoots };
